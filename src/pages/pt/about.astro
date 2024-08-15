@@ -1,0 +1,92 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'About us',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Sobre Nos"
+    image={{
+      src: '/src/assets/images/about-us-1.jpg',
+      alt: 'Group Dance Image',
+    }}
+  >
+    <Fragment slot="title"> OpenDance </Fragment>
+    <Fragment slot="subtitle">
+      <span class="text-accent dark:text-white highlight">
+        A Principal Escola de Dança Latina da Madeira Desde 2008
+      </span>
+    </Fragment>
+
+    <Fragment slot="content">
+      <span class="block mb-1">
+        Bem-vindo à OpenDance, a escola de dança mais popular e em voga na Madeira, especializada em danças Latinas,
+        Afro e Caribenhas. Estabelecida em 2008, somos a escola de dança Latina mais antiga da ilha e a única com
+        professores de dança Caribenha. Convidamos você a explorar os ritmos vibrantes dessas culturas sob a orientação
+        dos nossos instrutores profissionais.
+      </span>
+      <br />
+      <span class="block mb-1">
+        O nosso principal objetivo é oferecer a cada aluno a oportunidade de desfrutar da dança, independentemente da
+        idade, género ou nível de habilidade. Valorizamos a inclusão e esforçamo-nos para ser uma escola de dança aberta
+        a todos, independentemente do nível de experiência. O nosso ambiente é seguro e acolhedor, garantindo que todos
+        possam aprender danças Latinas, Afro e Caribenhas confortavelmente. Comprometemo-nos a ser uma escola de dança
+        ética que respeita as ricas culturas das danças Latino-Americanas e Africanas.
+      </span>
+      <br />
+      <span class="block mb-1">
+        Os nossos professores e colaboradores têm uma vasta experiência, e as nossas aulas são conduzidas em vários
+        idiomas, garantindo que não há limitações para os nossos alunos. Oferecemos instrução diversificada e de alta
+        qualidade em dança, bem como oportunidades para fitness baseado na dança, lideradas pelos nossos professores e
+        instrutores qualificados. O nosso compromisso com a qualidade reflete-se na nossa equipa dos melhores
+        professores da Madeira e nas nossas deslumbrantes instalações localizadas no coração da zona antiga do Funchal,
+        no vibrante distrito das artes.
+      </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Founder Widget ******************* -->
+
+  <Content
+    id="founder"
+    image={{
+      src: '/src/assets/images/founder.jpg',
+      alt: 'Founder Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Fundadora</h2>
+      <p>Niurys Oliveras Alvarez</p>
+      <br />
+      <p>
+        Niurys Oliveras Alvarez é uma dançarina e professora de dança profissional de Cuba, residente na Ilha da Madeira
+        desde 2005. Iniciou a sua carreira profissional aos 18 anos, atuando em palcos em Cuba, e desde então tornou-se
+        uma figura de destaque na Madeira, sendo frequentemente apresentada em programas de televisão que mostram as
+        suas habilidades de dança. Uma das suas contribuições notáveis foi trazer o programa de televisão “Noite de
+        Estrelas” para a RTP Madeira, onde não só ajudou na produção, mas também atuou como apresentadora. Até hoje,
+        continua a ser uma colaboradora dedicada da RTP Madeira.
+      </p>
+      <br />
+      <p>
+        Niurys desempenha um papel crucial na cena de dança Afro-Latina na Ilha da Madeira. Como CEO e fundadora da Open
+        Dance Academia, ela está profundamente empenhada em inspirar e encorajar todos a explorar os benefícios da
+        dança. Há quase 20 anos, a Open Dance Academia tem sido o seu orgulho e alegria. Sob a sua liderança, a escola
+        atrai professores de topo que atuam como embaixadores da dança para os seus alunos. Niurys também organiza
+        eventos e encontros para promover uma comunidade de dança vibrante, proporcionando oportunidades tanto para
+        visitantes estrangeiros como para residentes locais desfrutarem de atividades de dança e lazer.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+</Layout>

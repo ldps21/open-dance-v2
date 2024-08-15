@@ -1,0 +1,88 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import Note from '~/components/widgets/Note.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Pricing',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Dance com os Melhores"
+    title="Pacotes de dança excecionais para cada paixão!"
+    subtitle="Encontre o plano perfeito para elevar a sua jornada na dança."
+  />
+
+  <!-- Pricing Widget ******************* -->
+
+  <Prices
+    title="Os nossos planos mensais"
+    subtitle="Pague apenas pelo que precisa"
+    prices={[
+      {
+        title: '1 aula por semana',
+        subtitle: 'no mesmo estilo de dança',
+        price: 25,
+        period: 'por mês',
+      },
+      {
+        title: '2 aulas por semana',
+        subtitle: 'no mesmo estilo de dança',
+        price: 35,
+        period: 'Por Mês',
+        hasRibbon: true,
+        ribbonTitle: 'popular',
+      },
+      {
+        title: 'Acesso total',
+        subtitle: 'Qualquer aula que desejar',
+        price: 120,
+        period: 'Por Mês',
+      },
+    ]}
+  />
+
+  <Note title="Nota:" content="Aulas de dança individuais estão disponíveis por €10 por aula." />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contacte-nos aqui!',
+        href: '/',
+      },
+    ]}
+    title="Está à procura de aulas de dança privadas?"
+    subtitle="Estamos encantados por oferecer as melhores aulas privadas adaptadas às suas necessidades. Por favor, entre em contacto connosco para mais informações!"
+  />
+
+  <FAQs
+    title="Perguntas Frequentes sobre Preços"
+    subtitle="Estamos aqui para responder às suas perguntas sobre os preços da nossa escola de dança. Se tem dúvidas, está no lugar certo."
+    columns={1}
+    items={[
+      {
+        title: 'Posso mudar de estilo de dança a meio do mês?',
+        description:
+          'Os nossos planos mensais são concebidos para se focarem num estilo de dança por mês, com exceção do nosso plano de acesso total. Pedimos gentilmente que os alunos mantenham o estilo escolhido durante o mês.',
+      },
+      {
+        title: 'Posso obter um reembolso se deixar de frequentar as aulas a meio do mês?',
+        description:
+          'Infelizmente, não oferecemos reembolsos uma vez feito o pagamento para o mês, independentemente da frequência.',
+      },
+      {
+        title: 'Tenho que pagar o preço completo se apenas frequentar metade das aulas?',
+        description:
+          'Sim, o plano mensal exige o pagamento completo, mesmo que só frequente parte das aulas. Se planeia frequentar menos aulas, recomendamos o pagamento de aulas individuais.',
+      },
+    ]}
+  />
+</Layout>

@@ -1,0 +1,88 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'About us',
+};
+---
+
+<Layout metadata={metadata} isEnglish>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="About us"
+    image={{
+      src: '/src/assets/images/about-us-1.jpg',
+      alt: 'Group Dance Image',
+    }}
+  >
+    <Fragment slot="title"> OpenDance </Fragment>
+    <Fragment slot="subtitle">
+      <span class="text-accent dark:text-white highlight"> The most trending and popular dance school in Madeira </span>
+    </Fragment>
+
+    <Fragment slot="content">
+      <span class="block mb-1">
+        Established in 2008, we are the oldest Latin dance school specializing in Latin, Afro, and Caribbean dances on
+        the island and the only one with Caribbean dance teachers. We invite you to explore the vibrant rhythms of these
+        cultures under the guidance of our professional instructors.
+      </span>
+      <br />
+      <span class="block mb-1">
+        Our primary goal is to offer every student the opportunity to enjoy dancing, regardless of age, gender, or skill
+        level. We value inclusivity and strive to be a dance school open to everyone, irrespective of experience level.
+        Our environment is safe and welcoming, ensuring that everyone can learn Latin, Afro, and Caribbean dances
+        comfortably. We are committed to being an ethical dance school that respects the rich cultures of Latin American
+        and Afro dances.
+      </span>
+      <br />
+      <span class="block mb-1">
+        Our teachers and collaborators have extensive experience, and our classes are conducted in various languages,
+        ensuring there are no limitations for our students. We provide diverse and high-quality dance instruction, as
+        well as opportunities for dance-based fitness, led by our skilled dance teachers and instructors. Our commitment
+        to quality is reflected in our team of the best teachers from Madeira and our stunning facilities located in the
+        heart of Funchal's old town, within the vibrant art district.
+      </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Founder Widget ******************* -->
+
+  <Content
+    id="founder"
+    image={{
+      src: '/src/assets/images/founder.jpg',
+      alt: 'Founder Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Our founder</h2>
+      <p>Niurys Oliveras Alvarez</p>
+      <br />
+      <p>
+        Niurys Oliveras Alvarez is a professional dancer and dance teacher from Cuba, residing on Madeira Island since
+        2005. She began her professional journey at 18, performing on stages in Cuba, and has since become a prominent
+        figure on Madeira, frequently featured in television programs showcasing her dance skills. One of her notable
+        contributions is bringing the television show “Noite de Estrelas” to RTP Madeira, where she not only helped with
+        its production but also served as the presenter. To this day, she remains a dedicated collaborator with RTP
+        Madeira.
+      </p>
+      <br />
+      <p>
+        Niurys plays a pivotal role in the Afro-Latin dance scene on Madeira Island. As the CEO and founder of Open
+        Dance Academia, she is deeply committed to inspiring and encouraging everyone to explore the benefits of dance.
+        For nearly 20 years, Open Dance Academia has been her pride and joy. Under her leadership, the school attracts
+        top-tier teachers who act as ambassadors of dance to her students. Niurys also organizes events and gatherings
+        to foster a vibrant dance community, providing opportunities for both foreign visitors and local residents to
+        enjoy dance and leisure activities.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+</Layout>

@@ -1,0 +1,41 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Envie-nos uma mensagem hoje!"
+    tagline="Contacte-nos"
+    subtitle="Por favor, note que durante as aulas de dança, podemos não conseguir atender chamadas imediatamente, mas garantimos que entraremos em contacto consigo assim que possível."
+    items={[
+      {
+        title: 'Telefone',
+        description: '<a href="tel:+351968094700" class="text-accent">+351 968 094 700</a>',
+        icon: 'tabler:phone',
+      },
+      {
+        title: 'Whatsapp',
+        description:
+          '<a href="https://wa.me/351968094700" class="text-accent">Clique aqui para nos enviar uma mensagem no Whatsapp</a>',
+        icon: 'tabler:brand-whatsapp',
+      },
+      {
+        title: 'Email',
+        description: '<a href="mailto:madeiraopendance@gmail.com" class="text-accent">madeiraopendance@gmail.com</a>',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Localização',
+        description: 'Rua Latino Coelho 43, 9000-113 Funchal',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+</Layout>

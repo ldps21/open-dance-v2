@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/PageLayout.astro';
+
+import Note from '../../components/widgets/Note.astro';
+import FAQs from '../../components/widgets/FAQs.astro';
+import CallToAction from '../../components/widgets/CallToAction.astro';
+import Testimonials from '../../components/widgets/Testimonials.astro';
+import Hero2 from '../../components/widgets/Hero2.astro';
+import Hero from '../../components/widgets/Hero.astro';
+
+const metadata = {
+  title: 'OpenDance Madeira',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata} isEnglish>
+  <Hero
+    title='Welcome to <span class="text-accent highlight">OpenDance Madeira</span>'
+    subtitle="Where Madeira Dances – Leading the Latin Scene Since 2008"
+    id="hero-section"
+    image={{
+      src: 'src/assets/images/main-1.jpg',
+      alt: 'Teacher Image',
+    }}
+  />
+
+  <Note />
+
+  <Hero2
+    tagline="Original Latin Dance Experiences"
+    title="The best teachers in Madeira Island!"
+    subtitle="Our team helps students grow quickly, focusing on passion and personal development for enriching experiences"
+    actions={[
+      /* {
+        variant: 'primary',
+        icon: 'tabler:arrow-right',
+        text: 'Get to know them here!',
+        href: '/teachers',
+      }, */
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      alt: 'Teacher Image',
+    }}
+  />
+
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials
+    title="Words from real customers"
+    testimonials={[
+      {
+        testimonial: `Open Dance Madeira is undoubtedly the epitome of excellence in dance education on the island. Boasting top-notch instructors, a warm and encouraging ambiance, and a community of dancers that feels like family, it's a haven for those passionate about Latin dances.`,
+        name: 'Laura',
+      },
+      {
+        testimonial: `The dance studio has a very pleasant atmosphere, and the classes are dynamic and fun, thanks to teacher Niurys's sense of humor. It’s conveniently located near many places to eat and drink while waiting for class. Overall, everything is fantastic!`,
+        name: 'Fernando',
+      },
+      {
+        testimonial: `This is the best dance school on Madeira Island. The vibe is great, the people are wonderful, and the teachers are fantastic. You can learn Cuban salsa, bachata, kizomba, and now tango with incredible teachers like Vitaly and Katia. The only problem? You won’t want to leave!`,
+        name: 'Luis',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Check our schedule!',
+        href: '/schedule',
+      },
+    ]}
+    tagline="Madeira’s First Latin Dance School"
+    title="We offer a wide variety of latin dance styles!"
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Frequently Asked Questions"
+    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+    tagline="FAQs"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Who Can Join?',
+        description:
+          'Open Dance Academia is a vibrant and inclusive community where everyone is warmly welcomed. Our doors are open to dancers of all levels, from beginners to intermediate. No partner is needed to participate; we encourage everyone to join, learn, and have fun.',
+      },
+      {
+        title: 'What Do We Offer?',
+        description:
+          "We offer classes at different levels across a variety of dance styles, ensuring there's something perfect for your experience and skill level. Join us and become part of our big dance family, where your journey in dance is celebrated and supported every step of the way.",
+      },
+      {
+        title: 'How do I join?',
+        description:
+          'To join a class, you can view our schedule and arrive at the studio five minutes before the class starts. If you have any questions or wish to book a private lesson, feel free to send us a message through WhatsApp at (+351) 968-094-700. Please note that the school may be closed on holidays.',
+      },
+    ]}
+  />
+</Layout>

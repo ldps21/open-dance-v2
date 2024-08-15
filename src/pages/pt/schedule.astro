@@ -1,0 +1,33 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Schedule',
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero
+    tagline="Pioneiros na Dança Latina Desde 2008"
+    title="Horário 2024"
+    subtitle="Descubra o nosso horário semanal, concebido para todos os níveis e estilos. Desde sessões energéticas de salsa a aulas tranquilas de bachata, proporcionamos o ambiente perfeito para a sua jornada na dança."
+    image={{
+      src: '/src/assets/images/schedule.jpg',
+      alt: 'Imagem do Horário Semanal',
+    }}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Inscreva-se aqui!',
+        href: '/',
+      },
+    ]}
+    title="Está pronto para dançar?"
+    subtitle="Contacte-nos e inscreva-se numa aula hoje mesmo!"
+  />
+</Layout>

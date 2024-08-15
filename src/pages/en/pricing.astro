@@ -1,0 +1,88 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import Note from '~/components/widgets/Note.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Pricing',
+};
+---
+
+<Layout metadata={metadata} isEnglish>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Dance with the Best"
+    title="Exceptional dance packages for every passion!"
+    subtitle="Find the perfect plan to elevate your dance journey."
+  />
+
+  <!-- Pricing Widget ******************* -->
+
+  <Prices
+    title="Our monthly plans"
+    subtitle="Only pay for what you need"
+    prices={[
+      {
+        title: '1 class per week',
+        subtitle: 'in the same dance style',
+        price: 25,
+        period: 'per month',
+      },
+      {
+        title: '2 classes per week',
+        subtitle: 'in the same dance style',
+        price: 35,
+        period: 'Per Month',
+        hasRibbon: true,
+        ribbonTitle: 'popular',
+      },
+      {
+        title: 'Full access',
+        subtitle: 'Any classes you want',
+        price: 120,
+        period: 'Per Month',
+      },
+    ]}
+  />
+
+  <Note title="Note:" content="Individual dance classes are available at a rate of €10 per class." />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact us here!',
+        href: '/',
+      },
+    ]}
+    title="Are you looking for private dance lessons?"
+    subtitle="We are delighted to offer the best private lessons tailored to your needs. Please reach out to us for more information!"
+  />
+
+  <FAQs
+    title="Pricing FAQs"
+    subtitle="We're here to answer your questions about our dance school pricing. If you have queries, you're in the right place."
+    columns={1}
+    items={[
+      {
+        title: 'Can I switch dance styles mid-month?',
+        description:
+          'Our monthly plans are designed to focus on one dance style per month, with the exception of our full access plan. We kindly ask that students stick with their chosen style for the duration of the month.',
+      },
+      {
+        title: 'Can I get a refund if I stop attending classes mid-month?',
+        description:
+          "Unfortunately, we don't offer refunds once the payment for the month has been made, regardless of attendance.",
+      },
+      {
+        title: 'Do I have to pay full price if I only attend half the classes?',
+        description:
+          'Yes, the monthly plan requires full payment, even if you attend only part of the classes. If you plan to attend fewer classes, we recommend paying for individual classes instead.',
+      },
+    ]}
+  />
+</Layout>

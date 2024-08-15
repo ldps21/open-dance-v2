@@ -1,0 +1,34 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Schedule',
+};
+---
+
+<Layout metadata={metadata} isEnglish>
+  <Hero
+    tagline="Pioneers in Latin Dance Since 2008"
+    title="Schedule 2024"
+    subtitle="Discover our weekly schedule designed to cater to all levels and styles. From energetic salsa sessions to calming bachata classes, we provide the perfect environment for your dance journey."
+    image={{
+      src: '/src/assets/images/schedule.jpg',
+      alt: 'Weekly Schedule Image',
+    }}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Sign up here!',
+        href: '/',
+      },
+    ]}
+    title="Are you ready to dance?"
+    subtitle="Contact us and sign up for a class today!"
+  />
+</Layout>

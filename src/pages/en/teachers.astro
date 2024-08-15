@@ -1,0 +1,27 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+
+const metadata = {
+  title: 'OpenDance Madeira',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata} isEnglish>
+  <!-- Hero Widget ******************* -->
+
+  <Hero image={{ src: '~/assets/images/main-1.jpg', alt: 'AstroWind Hero Image' }}>
+    <Fragment slot="title"> Our Teachers </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="font-semibold"
+        >OpenDance has an excellent team of teachers and collaborators, emphasizing commitment and dedication to their
+        students. Our students are known for their rapid learning and personal growth through dance. With passion and
+        commitment as our guiding principles, our academy ensures that the students have enriching dance experiences
+        and, above all, achieve personal growth through the art of dance.</span
+      >
+    </Fragment>
+  </Hero></Layout
+>
