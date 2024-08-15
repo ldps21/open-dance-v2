@@ -1,12 +1,12 @@
 ---
-import Layout from '../../layouts/PageLayout.astro';
+import Layout from '~/layouts/PageLayout.astro';
 
-import Note from '../../components/widgets/Note.astro';
-import FAQs from '../../components/widgets/FAQs.astro';
-import CallToAction from '../../components/widgets/CallToAction.astro';
-import Testimonials from '../../components/widgets/Testimonials.astro';
-import Hero2 from '../../components/widgets/Hero2.astro';
-import Hero from '../../components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+//import Hero2 from '~/components/widgets/Hero2.astro';
+import Hero from '~/components/widgets/Hero.astro';
 
 const metadata = {
   title: 'OpenDance Madeira',
@@ -20,14 +20,14 @@ const metadata = {
     subtitle="Where Madeira Dances – Leading the Latin Scene Since 2008"
     id="hero-section"
     image={{
-      src: 'src/assets/images/main-1.jpg',
+      src: '~/assets/images/main-1.jpg',
       alt: 'Teacher Image',
     }}
   />
 
   <Note />
 
-  <Hero2
+  <!-- <Hero2
     tagline="Original Latin Dance Experiences"
     title="The best teachers in Madeira Island!"
     subtitle="Our team helps students grow quickly, focusing on passion and personal development for enriching experiences"
@@ -43,7 +43,7 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
       alt: 'Teacher Image',
     }}
-  />
+  /> -->
 
   <!-- Testimonials Widget *********** -->
 
