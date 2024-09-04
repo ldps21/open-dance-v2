@@ -24,32 +24,39 @@ const metadata = {
 
   <Prices
     title="Our monthly plans"
-    subtitle="Only pay for what you need"
+    subtitle="Pay only for what you need"
     prices={[
       {
         title: '1 class per week',
         subtitle: 'in the same dance style',
-        price: 25,
-        period: 'per month',
+        price: 30,
+        period: '4 hours of classes per month',
       },
       {
         title: '2 classes per week',
         subtitle: 'in the same dance style',
-        price: 35,
-        period: 'Per Month',
-        hasRibbon: true,
-        ribbonTitle: 'popular',
+        price: 40,
+        period: '8 hours of classes per month',
       },
       {
-        title: 'Full access',
-        subtitle: 'Any classes you want',
+        title: '4 classes per week',
+        subtitle: '2 different dance styles',
+        price: 70,
+        period: '16 hours of classes per month',
+      },
+      {
+        title: 'Special promotion',
+        subtitle: '3 different dance styles',
         price: 120,
-        period: 'Per Month',
+        period: '24 hours of classes per month',
+        hasRibbon: true,
+        ribbonTitle: 'popular',
+        items: [{ description: '1-hour private lesson included for free' }, { description: '6 classes per week' }],
       },
     ]}
   />
 
-  <Note title="Note:" content="Individual dance classes are available at a rate of €10 per class." />
+  <Note title="Note:" content="Drop-in dance classes are available at a rate of €10 per class." />
 
   <CallToAction
     actions={[
