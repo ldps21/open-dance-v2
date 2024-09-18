@@ -1,8 +1,8 @@
 ---
 import Hero from '~/components/widgets/Hero.astro';
-
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Image from '~/components/common/Image.astro';
 
 const metadata = {
   title: 'Schedule',
@@ -14,11 +14,11 @@ const metadata = {
     tagline="Pioneers in Latin Dance Since 2008"
     title="Schedule 2024"
     subtitle="Discover our weekly schedule designed to cater to all levels and styles. From energetic salsa sessions to calming bachata classes, we provide the perfect environment for your dance journey."
-    image={{
-      src: '~/assets/images/schedule.jpg',
-      alt: 'Weekly Schedule Image',
-    }}
   />
+
+  <div class="relative m-auto max-w-5xl">
+    <Image src="~/assets/images/schedule.jpg" alt="Imagem do Horário Semanal" />
+  </div>
 
   <CallToAction
     actions={[
