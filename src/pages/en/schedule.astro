@@ -5,7 +5,34 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Image from '~/components/common/Image.astro';
 
 const metadata = {
-  title: 'Schedule',
+  title: 'Schedule - OpenDance Madeira',
+  description:
+    'Check out the latest schedule for dance classes and events at OpenDance Madeira. Stay updated with our Cuban Salsa, Bachata, Kizomba, and more.',
+  keywords: 'dance schedule, dance classes, Cuban Salsa, Bachata, Kizomba, Madeira, dance events',
+  canonical: 'https://opendancemadeira.com/en/schedule',
+  openGraph: {
+    title: 'Schedule - OpenDance Madeira',
+    description:
+      'Check out the latest schedule for dance classes and events at OpenDance Madeira. Stay updated with our Cuban Salsa, Bachata, Kizomba, and more.',
+    url: 'https://opendancemadeira.com/en/schedule',
+    type: 'website',
+    images: [
+      {
+        url: 'https://opendancemadeira.com/_astro/schedule.DUrHFcPl_Z2vGXrj.webp',
+        width: 1200,
+        height: 630,
+        alt: 'OpenDance Madeira Schedule',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@OpenDanceMadeira',
+    title: 'Schedule - OpenDance Madeira',
+    description:
+      'Check out the latest schedule for dance classes and events at OpenDance Madeira. Stay updated with our Cuban Salsa, Bachata, Kizomba, and more.',
+    image: 'https://opendancemadeira.com/_astro/schedule.DUrHFcPl_Z2vGXrj.webp',
+  },
 };
 ---
 

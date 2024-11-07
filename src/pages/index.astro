@@ -5,12 +5,33 @@ import Note from '~/components/widgets/Note.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
-//mport Hero2 from '~/components/widgets/Hero2.astro';
 import Hero from '~/components/widgets/Hero.astro';
 
 const metadata = {
-  title: 'OpenDance Madeira',
+  title: 'OpenDance Madeira - Dance Classes and Events',
+  description:
+    'Join OpenDance Madeira for the best dance classes and events. Learn various dance styles from professional instructors and participate in exciting dance events. Dance styles include Cuban Salsa, Salsa Cubana, Son Cubano, Bachata, Reggaeton, Kizomba, Tango Argentino, Mambo, Cha Cha Cha, and Bachata Sensual. Participe nas melhores aulas e eventos de dança na OpenDance Madeira. Estilos de dança incluem Salsa Cubana, Son Cubano, Bachata, Reggaeton, Kizomba, Tango Argentino, Mambo, Cha Cha Cha, e Bachata Sensual. Únete a OpenDance Madeira para las mejores clases y eventos de baile. Los estilos de baile incluyen Salsa Cubana, Son Cubano, Bachata, Reggaeton, Kizomba, Tango Argentino, Mambo, Cha Cha Cha, y Bachata Sensual.',
   ignoreTitleTemplate: true,
+  keywords:
+    'dance, classes, events, Cuban Salsa, Salsa Cubana, Son Cubano, Bachata, Reggaeton, Kizomba, Tango Argentino, Mambo, Cha Cha Cha, Bachata Sensual, Madeira',
+  author: 'OpenDance Madeira',
+  viewport: 'width=device-width, initial-scale=1.0',
+  og: {
+    title: 'OpenDance Madeira - Dance Classes and Events',
+    description:
+      'Join OpenDance Madeira for the best dance classes and events. Learn various dance styles from professional instructors and participate in exciting dance events.',
+    image: '~/assets/images/main-2.jpg',
+    url: 'https://opendance-madeira.com',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@OpenDanceMadeira',
+    title: 'OpenDance Madeira - Dance Classes and Events',
+    description:
+      'Join OpenDance Madeira for the best dance classes and events. Learn various dance styles from professional instructors and participate in exciting dance events.',
+    image: '~/assets/images/main-2.jpg',
+  },
 };
 ---
 
@@ -26,26 +47,6 @@ const metadata = {
   />
 
   <Note title="Filosofia:" content="Descubra a Paixão da Dança" />
-
-  <!-- <Hero2
-    tagline="Experiências de Dança Latina Originais"
-    title="Os melhores professores da Ilha da Madeira!"
-    subtitle="A nossa equipa ajuda os alunos a crescer rapidamente, focando na paixão e no desenvolvimento pessoal para experiências enriquecedoras"
-    actions={[
-      /* {
-        variant: 'primary',
-        icon: 'tabler:arrow-right',
-        text: 'Conheça-os aqui!',
-        href: '/teachers',
-      }, */
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-      alt: 'Imagem dos Professores',
-    }}
-  /> -->
-
-  <!-- Testimonials Widget *********** -->
 
   <Testimonials
     title="Palavras de clientes reais"
