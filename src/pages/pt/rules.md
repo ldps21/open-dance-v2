@@ -3,7 +3,7 @@ title: 'Regras da Escola OpenDance Madeira'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Última atualização_: 15 de agosto de 2024
+_Última atualização_: 30 de março de 2026
 
 Por favor, leia estas regras cuidadosamente antes de utilizar Nosso Serviço.
 
@@ -43,7 +43,35 @@ Por favor, leia estas regras cuidadosamente antes de utilizar Nosso Serviço.
 
 - Se as aulas forem interrompidas por motivos fora do controle da escola de dança (por exemplo, fechamento devido a pandemia), os participantes podem escolher uma forma adequada de compensar as aulas perdidas.
   - As opções de compensação incluem a participação em aulas de dança virtuais, utilização de aulas de reposição após a reabertura da escola ou recebimento de um vale-presente no valor das aulas perdidas.
-- O OpenDance só reembolsar
+- O OpenDance só reembolsará as taxas do curso se um aluno não puder comparecer devido a um motivo de saúde verificável, comprovado por um certificado médico.
+
+### Política de Acesso a Workshops e Aulas
+
+- Os workshops e aulas do Open Dance são organizados para proporcionar um ambiente seguro, respeitoso e profissional para todos os participantes. A organização reserva-se o direito de recusar a entrada ou cancelar a inscrição de qualquer indivíduo cujo comportamento seja perturbador, assediante ou que, de outra forma, impacte negativamente a comunidade da dança.
+- Os bilhetes para workshops e aulas são oferecidos primeiro aos alunos do Open Dance, e esta prioridade aplica-se a todos os tipos de workshops. Ao adquirir ou inscrever-se num evento do Open Dance, os participantes concordam em cumprir estas políticas.
+- O Open Dance reserva-se o direito de aplicar esta política a qualquer momento, inclusive durante o evento, a fim de garantir a segurança e o usufruto de todos os participantes.
+
+## Etiqueta na Sala de Aula
+
+### Ambiente Respeitoso
+
+- Por favor, proporcione um ambiente de aprendizagem tranquilo para todos os alunos.
+- Telemóveis e leitores de música não são permitidos durante as aulas.
+- As conversas devem ser mantidas fora do horário das aulas para garantir que o foco permaneça na dança.
+
+### Consideração por Aulas Privadas
+
+- Se a sua aula começar após uma aula privada, por favor, seja atencioso e mantenha uma atmosfera silenciosa para os alunos da aula privada, caso esteja à espera dentro do estúdio antes do início da sua aula.
+
+## Política de Eventos
+
+- Os eventos do Open Dance (incluindo festas organizadas pelo Open Dance) são encontros focados na comunidade e livres de fins comerciais. A promoção de quaisquer serviços, negócios ou atividades é estritamente proibida sem a permissão do proprietário do Open Dance.
+- A organização reserva-se o direito de remover qualquer participante cuja conduta perturbe o evento ou viole esta política. O Open Dance Madeira não se responsabiliza por quaisquer lesões, perdas, acidentes ou danos, danos físicos ou perda de propriedade pessoal que os participantes possam sofrer durante ou após o evento.
+- Ao entrar ou comparecer em qualquer evento ou festa do Open Dance, o participante concorda com estes termos e condições e/ou regras.
+
+### Uso do Nome
+
+- O uso do nome Open Dance para promover serviços pessoais ou de terceiros é estritamente proibido sem o consentimento prévio por escrito da Open Dance. A Open Dance reserva-se o direito de tomar as medidas apropriadas em caso de violação.
 
 ## Responsabilidade
 
@@ -64,6 +92,16 @@ Por favor, leia estas regras cuidadosamente antes de utilizar Nosso Serviço.
 ### Recusa
 
 - Alunos que não desejam ser fotografados ou filmados devem informar a escola antes do início do curso.
+
+### Política de Fotos e Vídeos
+
+- A gravação de fotos ou vídeos durante eventos do Open Dance é permitida apenas para uso pessoal, a menos que indicado de outra forma.
+- Qualquer uso de fotos ou vídeos tirados em eventos do Open Dance para fins comerciais — incluindo promoção de serviços, negócios ou eventos — é estritamente proibido sem o consentimento prévio por escrito do proprietário do Open Dance.
+- O Open Dance reserva-se o direito de solicitar a remoção de qualquer conteúdo que viole esta política e de tomar medidas adicionais se necessário. Os participantes que não cumprirem podem ser removidos do evento.
+
+## Parcerias e Eventos Conjuntos
+
+- Todos os termos e condições e/ou regras aplicam-se a eventos organizados em conjunto com o Open Dance Madeira, mesmo que organizados em parceria com qualquer empresa.
 
 ## Nota Final
 

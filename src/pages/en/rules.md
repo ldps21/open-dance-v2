@@ -3,7 +3,7 @@ title: 'OpenDance Madeira School Rules'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 15, 2024
+_Last updated_: March 30, 2026
 
 Please read these rules carefully before using Our Service.
 
@@ -45,6 +45,12 @@ Please read these rules carefully before using Our Service.
   - Compensation options include participating in virtual dance classes, using makeup classes after the school reopens, or receiving a gift card for the value of the missed lessons.
 - OpenDance will only refund course fees if a student is unable to attend due to a verifiable health reason, supported by a doctor's certificate.
 
+### Workshop and Class Access Policy
+
+- Open Dance workshops and classes are organized to provide a safe, respectful, and professional environment for all participants. The organization reserves the right to deny entry or cancel the registration of any individual whose behavior is disruptive, harassing, or otherwise negatively impacts the dance community.
+- Tickets for workshops and classes are offered first to Open Dance students, and this priority applies to all types of workshops. By purchasing or registering for an Open Dance event, participants agree to comply with these policies.
+- Open Dance reserves the right to enforce this policy at any time, including during the event, in order to ensure the safety and enjoyment of all attendees.
+
 ## Classroom Etiquette
 
 ### Respectful Environment
@@ -56,6 +62,16 @@ Please read these rules carefully before using Our Service.
 ### Private Lesson Consideration
 
 - If your class begins after a private lesson, please be mindful and maintain a quiet atmosphere for the private lesson students if you are waiting inside the studio before your class starts.
+
+## Event Policy
+
+- Open Dance events (including parties organized by Open Dance) are commercial-free, community-focused gatherings. Promotion of any services, businesses, or activities is strictly prohibited without the permission of the owner of Open Dance.
+- The organization reserves the right to remove any participant whose conduct disrupts the event or violates this policy. Open Dance Madeira is not responsible for any injuries, losses, accidents, or damages, physical harm or loss of personal property that participants may sustain during or after the event.
+- By entering or attending any Open Dance event or party, you agree to these terms and conditions and/or rules.
+
+### Use of Name
+
+- The use of the Open Dance name to promote personal or third-party services is strictly prohibited without prior written consent from Open Dance. Open Dance reserves the right to take appropriate action in case of violation.
 
 ## Liability
 
@@ -76,6 +92,16 @@ Please read these rules carefully before using Our Service.
 ### Opt-Out
 
 - Students who do not wish to be photographed or filmed should inform the school before the start of the course.
+
+### Photo and Video Policy
+
+- The recording of photos or videos during Open Dance events is permitted for personal use only, unless otherwise stated.
+- Any use of photos or videos taken at Open Dance events for commercial purposes — including promotion of services, businesses, or events — is strictly prohibited without the prior written consent of the owner of Open Dance.
+- Open Dance reserves the right to request the removal of any content that violates this policy and to take further action if necessary. Participants who do not comply may be removed from the event.
+
+## Joint Ventures
+
+- All terms and conditions and/or rules apply on events that are organized together with Open Dance Madeira, even if organized jointly with any company.
 
 ## Final Note
 
