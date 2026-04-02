@@ -27,6 +27,7 @@ export const headerDataPt = {
       href: getPermalink('/pt/contact'),
     },
   ],
+  actions: [{ text: 'Shop', href: 'https://latinoflow.store/', target: '_blank' }],
 };
 
 export const footerDataPt = {
