@@ -5,107 +5,111 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Last updated_: March 30, 2026
 
-Please read these rules carefully before using Our Service.
+Please read these rules carefully before using Our Service. By enrolling in a class or attending an event, you agree to comply with these terms.
 
-## Payment Policy
+## 1. Payment Policy
 
 ### Monthly Payments
 
-- Payment for classes must be made before the 4th day of each month.
+- Payment for classes must be made in full before the **4th day** of each month.
+- Prices include VAT (IVA) at the current regional rate unless otherwise stated.
 
 ### Discounts
 
 - Students, retirees, and unemployed individuals are eligible for discounts on course fees.
-- To receive the discount, a valid ID card or an official certificate from the relevant institution must be presented.
-- It is the student's responsibility to provide proof of eligibility before making the payment.
-- Discounts cannot be applied retroactively.
+- To receive a discount, a valid ID card or an official certificate from the relevant institution must be presented at the time of registration.
+- **Responsibility:** It is the student's responsibility to provide proof of eligibility before payment. Discounts cannot be applied retroactively.
 
-## Class Schedule and Holidays
+---
 
-### Holidays
+## 2. Class Schedule and Cancellations
 
-- The dance school may be closed during holidays, and lessons will not be held.
-- There is no obligation to provide lessons during these times.
+### Holidays and Closures
+
+- The dance school will be closed on Portuguese national and regional holidays.
+- There is no obligation to provide makeup lessons or refunds for scheduled holidays.
 
 ### Unexpected Cancellations
 
-- In the event that a class is canceled due to the sudden illness of an instructor and a substitute cannot be arranged, the cancellation will be promptly communicated to students via OpenDance WhatsApp groups.
-- A makeup class will be scheduled at a later date.
+- If a class is canceled due to instructor illness or unforeseen circumstances, students will be notified promptly via the **OpenDance WhatsApp groups**.
+- A makeup class will be scheduled at a later date. No monetary refunds will be issued for individual class cancellations where a makeup session is offered.
 
-## Class Participation and Attendance
+---
+
+## 3. Attendance and Refunds
 
 ### Attendance Responsibility
 
-- OpenDance is not responsible for a participant's attendance.
-- Monthly fees will not be refunded if a student does not attend classes.
+- OpenDance is not responsible for a participant's inability to attend. Monthly fees are non-refundable and non-transferable to future months if a student misses a class.
 
 ### Interruption of Lessons
 
-- If classes are interrupted for reasons beyond the control of the dance school (e.g., pandemic-related closures), participants can choose a suitable way to make up for the lost lessons.
-  - Compensation options include participating in virtual dance classes, using makeup classes after the school reopens, or receiving a gift card for the value of the missed lessons.
-- OpenDance will only refund course fees if a student is unable to attend due to a verifiable health reason, supported by a doctor's certificate.
+- If classes are interrupted for reasons beyond the school’s control (e.g., public health emergencies, force majeure):
+  - Students may choose compensation via virtual classes, makeup sessions after reopening, or a credit voucher.
+- **Medical Refunds:** OpenDance will only consider refunds for course fees if a student is unable to attend for a prolonged period due to a verifiable health reason, supported by a formal doctor's certificate.
 
-### Workshop and Class Access Policy
+---
 
-- Open Dance workshops and classes are organized to provide a safe, respectful, and professional environment for all participants. The organization reserves the right to deny entry or cancel the registration of any individual whose behavior is disruptive, harassing, or otherwise negatively impacts the dance community.
-- Tickets for workshops and classes are offered first to Open Dance students, and this priority applies to all types of workshops. By purchasing or registering for an Open Dance event, participants agree to comply with these policies.
-- Open Dance reserves the right to enforce this policy at any time, including during the event, in order to ensure the safety and enjoyment of all attendees.
+## 4. Workshop and Access Policy
 
-## Classroom Etiquette
+- OpenDance reserves the right to deny entry or cancel the registration of any individual whose behavior is disruptive, harassing, or negatively impacts the community.
+- **Priority Access:** Tickets for workshops are offered first to active OpenDance students.
+- **Right of Admission:** OpenDance reserves the right to enforce this policy at any time, including during events, to ensure the safety of all attendees.
 
-### Respectful Environment
+---
 
-- Please provide a peaceful learning environment for all students.
-- Mobile phones and music players are not allowed during classes.
-- Conversations should be kept outside of class time to ensure that the focus remains on dance.
+## 5. Classroom Etiquette
 
-### Private Lesson Consideration
+- **Environment:** Please maintain a peaceful and focused learning environment.
+- **Technology:** Mobile phones and music players must be silenced and put away during class.
+- **Communication:** Please keep social conversations outside of the studio floor to respect the instructor and fellow students.
+- **Private Lessons:** If your class follows a private lesson, please enter the studio quietly and wait in the designated area without interrupting the ongoing session.
 
-- If your class begins after a private lesson, please be mindful and maintain a quiet atmosphere for the private lesson students if you are waiting inside the studio before your class starts.
+---
 
-## Event Policy
+## 6. Liability and Safety
 
-- Open Dance events (including parties organized by Open Dance) are commercial-free, community-focused gatherings. Promotion of any services, businesses, or activities is strictly prohibited without the permission of the owner of Open Dance.
-- The organization reserves the right to remove any participant whose conduct disrupts the event or violates this policy. Open Dance Madeira is not responsible for any injuries, losses, accidents, or damages, physical harm or loss of personal property that participants may sustain during or after the event.
-- By entering or attending any Open Dance event or party, you agree to these terms and conditions and/or rules.
+- **Personal Belongings:** OpenDance Madeira is not responsible for the loss, theft, or damage of any personal property on the premises.
+- **Physical Safety:** Dance is a physical activity. By participating, students acknowledge the inherent risks. OpenDance is not liable for any injuries, accidents, or physical harm sustained during classes, events, or while on the school premises.
+
+---
+
+## 7. Media and Intellectual Property
+
+### Promotional Media (GDPR Compliant)
+
+- OpenDance may take photographs or videos during classes and events for marketing purposes.
+- **Consent:** By enrolling, you consent to the use of your image in our promotional materials.
+- **Opt-Out:** If you do not wish to be filmed or photographed, you must notify the school in writing (**madeiraopendance@gmail.com**) before the start of your course.
+
+### Personal vs. Commercial Use
+
+- Recording photos/videos for **personal use** is generally permitted unless the instructor states otherwise.
+- **Commercial Use:** Use of any media taken at OpenDance for commercial purposes (promoting other businesses, services, or events) is strictly prohibited without prior written consent from the management.
 
 ### Use of Name
 
-- The use of the Open Dance name to promote personal or third-party services is strictly prohibited without prior written consent from Open Dance. Open Dance reserves the right to take appropriate action in case of violation.
+- The use of the "OpenDance" name or logo to promote personal or third-party services is strictly prohibited without prior written consent.
 
-## Liability
+---
 
-### Personal Belongings
+## 8. Joint Ventures and Partnerships
 
-- The dance school is not responsible for any loss or damage to personal belongings.
+- These terms and conditions apply to all events organized by OpenDance Madeira, including those held in collaboration with external partners or companies.
 
-### Injuries
+---
 
-- The school is not liable for any injuries sustained during classes, on the premises, or during school-related events.
+## 9. Regulatory Information (Portugal)
 
-## Photographs and Media
+- **Complaints:** In accordance with Portuguese law, OpenDance Madeira maintains a Physical Complaints Book (_Livro de Reclamações_) on-site and access to the [Electronic Complaints Book](https://www.livroreclamacoes.pt).
+- **Data Protection:** Your personal data is handled in accordance with the RGPD (GDPR) solely for administrative and communication purposes related to the school.
 
-### Use of Images
-
-- The dance school may take photographs or record videos during classes or events for promotional purposes. By enrolling, students consent to the use of their images in marketing materials unless they notify the school in writing.
-
-### Opt-Out
-
-- Students who do not wish to be photographed or filmed should inform the school before the start of the course.
-
-### Photo and Video Policy
-
-- The recording of photos or videos during Open Dance events is permitted for personal use only, unless otherwise stated.
-- Any use of photos or videos taken at Open Dance events for commercial purposes — including promotion of services, businesses, or events — is strictly prohibited without the prior written consent of the owner of Open Dance.
-- Open Dance reserves the right to request the removal of any content that violates this policy and to take further action if necessary. Participants who do not comply may be removed from the event.
-
-## Joint Ventures
-
-- All terms and conditions and/or rules apply on events that are organized together with Open Dance Madeira, even if organized jointly with any company.
+---
 
 ## Final Note
 
-By enrolling in a class, you agree to follow our guidelines. These guidelines are in place to prevent misunderstandings and to ensure a fair, consistent, and seamless experience for both our dance enthusiasts and staff. Our team is dedicated to finding the best possible solutions within the framework of these rules. If you have any feedback, we encourage you to share it directly with our staff or by emailing us at madeiraopendance@gmail.com. Your feedback is invaluable and helps us continually improve our offerings. We also warmly welcome positive feedback!
+These guidelines ensure a fair, consistent, and professional experience for everyone. Our team is dedicated to finding the best solutions within this framework.
 
-Wishing you joyful dance moments,  
-**OpenDance Academy**
+If you have feedback or questions, please speak to us directly or email **madeiraopendance@gmail.com**. We look forward to seeing you on the dance floor!
+
+**OpenDance Madeira**
