@@ -84,7 +84,7 @@ Please read these rules carefully before using Our Service. By enrolling in a cl
 
 ### Personal vs. Commercial Use
 
-- Recording photos/videos for **personal use** is generally permitted unless the instructor states otherwise.
+- Recording photos/videos for **personal use** is generally permitted unless management states otherwise.
 - **Commercial Use:** Use of any media taken at OpenDance for commercial purposes (promoting other businesses, services, or events) is strictly prohibited without prior written consent from the management.
 
 ### Use of Name
