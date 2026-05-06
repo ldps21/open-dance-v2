@@ -73,6 +73,7 @@ export const headerDataEn = {
       href: getPermalink('/en/contact'),
     },
   ],
+  actions: [{ text: 'Shop', href: 'https://latinoflow.store/', target: '_blank' }],
 };
 
 export const footerDataEn = {

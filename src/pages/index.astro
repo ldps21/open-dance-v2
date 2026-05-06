@@ -6,6 +6,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import Image from '~/components/common/Image.astro';
 
 const metadata = {
   title: 'OpenDance Madeira - Dance Classes and Events',
@@ -47,6 +48,10 @@ const metadata = {
   />
 
   <Note title="Filosofia:" content="Descubra a Paixão da Dança" />
+
+  <div class="m-auto max-w-5xl flex justify-center">
+    <Image src="~/assets/images/banner.png" alt="Banner" />
+  </div>
 
   <Testimonials
     title="Palavras de clientes reais"
